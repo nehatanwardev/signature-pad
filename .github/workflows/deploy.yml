@@ -42,4 +42,4 @@ jobs:
           git commit -m "Deploy Flutter web app to GitHub Pages"
 
           # Push changes to the gh-pages branch
-             git push --force https://github.com/nehatanwardev/signature-pad.git gh-pages --token ${{ secrets.GH_TOKEN }}
+          git push --force --quiet "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages:gh-pages
