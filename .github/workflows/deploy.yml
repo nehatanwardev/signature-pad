@@ -28,8 +28,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          git config --global user.name 'Your GitHub Username'
-          git config --global user.email 'Your GitHub Email'
+          git config --global user.name 'nehatanwardev'
+          git config --global user.email 'nehatanwar.dev@gmail.com'
 
           # Create the gh-pages branch if it doesn't exist
           git checkout -b gh-pages
